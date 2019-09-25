@@ -1,0 +1,44 @@
+{
+  "name": "dust-monitor-platform",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "react-bootstrap": "^1.0.0-beta.11",
+    "react-plotly.js": "^2.3.0",
+    "react-pure-render": "^1.0.2",
+    "react-swipeable-views": "^0.13.3",
+    "recharts": "^1.6.2",
+    "@material-ui/icons": "latest",
+    "@material-ui/core": "latest",
+    "clsx": "latest",
+    "bootstrap": "^4.3.1",
+    "firebase": "^6.2.2",
+    "google-map-react": "^1.1.4",
+    "plotly.js": "^1.48.3",
+    "prop-types": "^15.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts --max_old_space_size=4096 start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
